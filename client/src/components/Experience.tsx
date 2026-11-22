@@ -4,7 +4,7 @@ import Section from './Section';
 
 export default function Experience() {
   return (
-    <Section id="experience" eyebrow="Experience" title="Where I’ve worked" description="Five years across product teams in Surat.">
+    <Section id="experience" eyebrow="Experience" title="Where I’ve worked" description="Nearly five years across product teams in Surat.">
       <ol className="relative space-y-8 border-l border-slate-200 pl-6 sm:pl-10 dark:border-white/10">
         {jobs.map((job, i) => (
           <li key={job.company} className="relative">

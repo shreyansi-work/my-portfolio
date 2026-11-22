@@ -11,7 +11,7 @@ export type Job = {
 export const jobs: Job[] = [
   {
     company: 'WebOsmotic Private Limited',
-    role: 'Full Stack Developer',
+    role: 'AI Full-Stack Developer',
     period: 'January 2024 – Present',
     location: 'Surat, Gujarat',
     highlights: [
@@ -25,7 +25,7 @@ export const jobs: Job[] = [
   },
   {
     company: 'Bigscal Technologies Pvt. Ltd.',
-    role: 'Full Stack Developer',
+    role: 'Full-Stack Developer',
     period: 'January 2022 – December 2023',
     location: 'Surat, Gujarat',
     highlights: [

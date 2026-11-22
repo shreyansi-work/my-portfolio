@@ -70,7 +70,7 @@ export default function Hero() {
               <code>
                 {'{\n'}
                 {'  '}<span className="text-indigo-600 dark:text-indigo-400">"role"</span>: <span className="text-emerald-600 dark:text-emerald-400">"Full Stack Developer"</span>,{'\n'}
-                {'  '}<span className="text-indigo-600 dark:text-indigo-400">"experience"</span>: <span className="text-emerald-600 dark:text-emerald-400">"5 years"</span>,{'\n'}
+                {'  '}<span className="text-indigo-600 dark:text-indigo-400">"experience"</span>: <span className="text-emerald-600 dark:text-emerald-400">"nearly 5 years"</span>,{'\n'}
                 {'  '}<span className="text-indigo-600 dark:text-indigo-400">"frontend"</span>: [<span className="text-emerald-600 dark:text-emerald-400">"React.js"</span>, <span className="text-emerald-600 dark:text-emerald-400">"React Native"</span>],{'\n'}
                 {'  '}<span className="text-indigo-600 dark:text-indigo-400">"backend"</span>: [<span className="text-emerald-600 dark:text-emerald-400">"Node.js"</span>, <span className="text-emerald-600 dark:text-emerald-400">"NestJS"</span>],{'\n'}
                 {'  '}<span className="text-indigo-600 dark:text-indigo-400">"databases"</span>: [<span className="text-emerald-600 dark:text-emerald-400">"MongoDB"</span>, <span className="text-emerald-600 dark:text-emerald-400">"PostgreSQL"</span>],{'\n'}

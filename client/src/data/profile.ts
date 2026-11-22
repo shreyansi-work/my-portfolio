@@ -15,5 +15,5 @@ export const profile = {
   resumeAiFullStack: '/resume/Shreyansi_Resume_AI_FullStack.pdf',
 
   intro:
-    'Full Stack Developer with 5 years of experience building web and mobile applications, including SaaS platforms and AI-powered applications.',
+    'Full Stack Developer with nearly 5 years of experience building web and mobile applications, including SaaS platforms and AI-powered applications.',
 };

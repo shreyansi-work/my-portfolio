@@ -3,7 +3,7 @@ import Reveal from './Reveal';
 import Section from './Section';
 
 const facts = [
-  { label: 'Experience', value: '5 years' },
+  { label: 'Experience', value: 'Nearly 5 years' },
   { label: 'Based in', value: profile.location },
   { label: 'Core stack', value: 'React.js, Node.js, TypeScript' },
   { label: 'Looking for', value: 'Full Stack, React/Node and AI application roles' },
@@ -16,7 +16,7 @@ export default function About() {
         <Reveal>
           <div className="space-y-5 text-base leading-relaxed text-slate-600 dark:text-slate-400">
             <p>
-              I’m a Full Stack Developer with 5 years of experience building web and mobile applications, including SaaS platforms and AI-powered
+              I’m a Full Stack Developer with nearly 5 years of experience building web and mobile applications, including SaaS platforms and AI-powered
               applications. I work across React.js, React Native, Next.js, Node.js, Express.js, NestJS, TypeScript, MongoDB and PostgreSQL.
             </p>
             <p>
