@@ -13,8 +13,8 @@ export type Project = {
 };
 
 // ---------------------------------------------------------------------------------------------
-// Professional projects (built at WebOsmotic). Employer products: no public links, no screenshots,
-// no customer names and no metrics are shown. Text follows your resume.
+// Professional projects (built at WebOsmotic and Bigscal). Employer products: no public links, no
+// screenshots, no customer names and no metrics are shown. Text follows your resume.
 // ---------------------------------------------------------------------------------------------
 export const professionalProjects: Project[] = [
   {
@@ -78,32 +78,19 @@ export const professionalProjects: Project[] = [
     ],
     accent: 'violet',
   },
-];
-
-// ---------------------------------------------------------------------------------------------
-// Personal projects. To add your second project tomorrow, copy the FinLens block, change the text,
-// and append it to this array. The section lays out any number of cards automatically.
-// Facts below come from the public repository README (github.com/shreyansi-work/finlens-rag-ai).
-// ---------------------------------------------------------------------------------------------
-export const personalProjects: Project[] = [
   {
-    name: 'FinLens RAG Chatbot',
-    subtitle: 'Agentic RAG research analyst for company filings',
-    category: 'Personal AI project',
+    name: 'BigDesk',
+    subtitle: 'Employee Activity Tracking Desktop Application',
+    category: 'Desktop app',
     summary:
-      'A personal retrieval-augmented generation project that answers questions about company filings such as annual reports, quarterly results and earnings-call transcripts, with page-level citations, and says “I don’t know” when the evidence is missing.',
-    tech: ['Python', 'FastAPI', 'Ollama', 'SQLite (FTS5)', 'Docker', 'GitHub Actions'],
+      'A desktop application for employee activity tracking and work-time monitoring, enabling organizations to monitor employee activities through real-time updates and dual-monitor screenshot capture.',
+    tech: ['Electron.js', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO', 'Redux Toolkit'],
     points: [
-      'Document-based question answering with page-level citations.',
-      'Hybrid search that combines keyword (BM25) and vector retrieval.',
-      'Tool-using agent with text-to-SQL and a calculator for exact figures.',
-      'Answer checks that reject citations or numbers that are not found in the evidence, with explicit refusal when proof is missing.',
-      'Tested against a 142-question evaluation set, with automated tests and CI on GitHub Actions.',
-    ],
-    note: 'The demo runs on free hosting with synthetic data (five fictional companies), so it can take about a minute to wake up.',
-    links: [
-      { label: 'Live demo', href: 'https://finlens-rag-ai.onrender.com/' },
-      { label: 'Source on GitHub', href: 'https://github.com/shreyansi-work/finlens-rag-ai' },
+      'Developed desktop application features using Electron.js and React.js.',
+      'Implemented dual-monitor screenshot capture to record employee screen activity.',
+      'Integrated real-time activity updates using Socket.IO.',
+      'Integrated frontend components with backend APIs for activity data exchange.',
+      'Worked on application state management and desktop application functionality.',
     ],
     accent: 'indigo',
   },

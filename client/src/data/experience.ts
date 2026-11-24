@@ -29,10 +29,11 @@ export const jobs: Job[] = [
     period: 'January 2022 – December 2023',
     location: 'Surat, Gujarat',
     highlights: [
-      'Developed frontend features for an Electron.js desktop application using React.js.',
+      'Developed frontend features for the BigDesk Electron.js desktop application using React.js.',
       'Developed reusable React components and management interfaces using Redux Toolkit and RTK Query.',
       'Managed client-side state with Redux and integrated REST APIs into React.js screens.',
       'Built responsive user interfaces with Material UI and Bootstrap.',
     ],
+    workedOn: ['BigDesk'],
   },
 ];
