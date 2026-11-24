@@ -1,4 +1,4 @@
-import { personalProjects, professionalProjects, type Project } from '../data/projects';
+import { professionalProjects, type Project } from '../data/projects';
 import { ChevronDownIcon, ExternalIcon } from './Icons';
 import Reveal from './Reveal';
 import Section from './Section';
@@ -75,7 +75,7 @@ export default function Projects() {
       id="projects"
       eyebrow="Projects"
       title="Selected work"
-      description="Professional products I built at WebOsmotic, and a personal AI project. Employer projects are described at a high level; no private code, data or customer details are shown."
+      description="Professional products I built at WebOsmotic and Bigscal. Employer projects are described at a high level; no private code, data or customer details are shown."
       muted
     >
       <Reveal>
@@ -85,17 +85,6 @@ export default function Projects() {
         {professionalProjects.map((p, i) => (
           <Reveal key={p.name} delay={(i % 2) * 80}>
             <ProjectCard project={p} pointsLabel="Key contributions" />
-          </Reveal>
-        ))}
-      </div>
-
-      <Reveal className="mt-16">
-        <h3 className="text-sm font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">Personal projects</h3>
-      </Reveal>
-      <div className="mt-6 grid gap-6 md:grid-cols-2">
-        {personalProjects.map((p, i) => (
-          <Reveal key={p.name} delay={(i % 2) * 80}>
-            <ProjectCard project={p} pointsLabel="Features" />
           </Reveal>
         ))}
       </div>
